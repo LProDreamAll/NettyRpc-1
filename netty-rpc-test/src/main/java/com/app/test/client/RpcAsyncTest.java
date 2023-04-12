@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
  * Created by luxiaoxun on 2016/3/16.
  */
 public class RpcAsyncTest {
+
     public static void main(String[] args) throws InterruptedException {
         final RpcClient rpcClient = new RpcClient("10.217.59.164:2181");
 
