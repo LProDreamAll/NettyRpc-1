@@ -16,6 +16,8 @@ public class RpcAsyncTest {
         final RpcClient rpcClient = new RpcClient("10.217.59.164:2181");
 
         int threadNum = 1;
+
+
         final int requestNum = 100;
         Thread[] threads = new Thread[threadNum];
 
